@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" class="cursor-none">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Works</title>
+    <link rel="shortcut icon" type="x-icon" href="Asset/logo.png" />
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <style>
+    .custom-cursor {
+      width: 15px;
+      height: 15px;
+      background-color: #ffff;
+      border-radius: 50%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      z-index: 9999;
+      mix-blend-mode: difference;
+    }
+    a:hover,
+    button:hover {
+      cursor: none;
+      mix-blend-mode: difference;
+    }
+
+    a:hover .custom-cursor,
+    button:hover .custom-cursor {
+      border: 10px solid #ffff; /* Ganti dengan tampilan cursor yang diinginkan saat menghover */
+    }
+  </style>
+  <body class="bg-neutral-950">
+    <div class="custom-cursor hidden sm:hidden md:hidden lg:block 2xl:block"></div>
+    <nav class="flex items-center justify-between bg-bg py-4 px-8">
+      <div class="flex items-center">
+        <img src="Asset/logo.png" alt="Logo" class="h-8 w-8 md:h-12 md:w-12 lg:-mt-2" />
+      </div>
+      <div class="flex justify-center md:justify-start lg:justify-center lg:items-center lg:ml-40 sm:justify-start">
+        <ul class="flex space-x-10 md:space-x-20 lg:space-x-24 sm:space-x-20">
+          <li><a href="index.html" class="text-white hover:text-gray-700 md:text-lg">Home</a></li>
+          <li><a href="#" class="text-white hover:text-gray-700 md:text-lg">About</a></li>
+          <li><a href="#" class="text-white hover:text-gray-700 md:text-lg">Project</a></li>
+        </ul>
+      </div>
+      <div class="hidden md:block sm:block">
+        <a class="bg-neutral-800 hover:bg-white text-white font-bold py-2 px-4 rounded active:bg-white active:text-black transition-all md:px-8 md:py-4 hover:text-black">Get in Touch</a>
+      </div>
+    </nav>
+    <div class="mt-20">
+        <h1 class="text-3xl text-neutral-50 mx-14 opacity-30 sm:mx-6 md:mx-28 lg:mx-7 2xl:mx-56">Project</h1>
+    </div>
+    <div class="container flex justify-center md:mx-4 lg:mx-auto 2xl:mx-44 mt-10">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 2xl:gap-16">
+        <div class="w-72 h-96 bg-neutral-900 rounded-lg 2xl:w-80" data-tilt>
+          <img class="w-96 h-52 mb-2 rounded-t-md" src="Asset/Spense.png" />
+          <a class="text-neutral-50 text-2xl ml-3">Ichlar Web</a>
+          <p class="text-neutral-50 opacity-25 mx-3 mt-1 pb-2 text-sm mb-4">Ichlar's website is a remarkable platform dedicated to the field of solar system education. Created using HTML, CSS, and JS. </p>
+          <a class="mx-3 border border-slate-50 hover:bg-white text-white font-bold py-2 px-8 rounded active:bg-white active:text-black transition-all md:px-8 md:py-4 hover:text-black">Visit</a>
+        </div>
+        <div class="w-72 h-96 bg-neutral-900 rounded-lg 2xl:w-80" data-tilt>
+          <img class="w-96 h-52 mb-2 rounded-t-md" src="Asset/bening web.jpg" />
+          <a class="text-neutral-50 text-2xl ml-3">Api Abadi Web</a>
+          <p class="text-neutral-50 opacity-25 mx-3 mt-1 pb-2 text-sm mb-4">API Abadi Mrappen's website offers reliability, speed, scalability, comprehensive documentation made with HTML,CSS.</p>
+          <a class="mx-3 border border-slate-50 hover:bg-white text-white font-bold py-2 px-8 rounded active:bg-white active:text-black transition-all md:px-8 md:py-4 hover:text-black">Visit</a>
+        </div>
+        <div class="w-72 h-96 bg-neutral-900 rounded-lg 2xl:w-80" data-tilt>
+          <img class="w-96 h-52 mb-2 rounded-t-md" src="Asset/YalpCamp.png" />
+          <a class="text-neutral-50 text-2xl ml-3">Ipad</a>
+          <p class="text-neutral-50 opacity-25 mx-3 mt-1 pb-2 text-sm mb-4">This ipad website is not official it's just dummy or copy made by myself,using HTML, CSS, Javascript.</p>
+          <a class="mx-3 border border-slate-50 hover:bg-white text-white font-bold py-2 px-8 rounded active:bg-white active:text-black transition-all md:px-8 md:py-4 hover:text-black">Visit</a>
+        </div>
+        <div class="w-72 h-96 bg-neutral-900 rounded-lg 2xl:w-80" data-tilt>
+          <img class="w-96 h-52 mb-2 rounded-t-md" src="Asset/fiber.jpg" />
+          <a class="text-neutral-50 text-2xl ml-3">Fiber Web</a>
+          <p class="text-neutral-50 opacity-25 mx-3 mt-1 pb-2 text-sm mb-4">Fiber web is a website from frontend training website,i made this website just for my training and practice.</p>
+          <a class="mx-3 border border-slate-50 hover:bg-white text-white font-bold py-2 px-8 rounded active:bg-white active:text-black transition-all md:px-8 md:py-4 hover:text-black">Visit</a>
+        </div>
+        <div class="w-72 h-96 bg-neutral-900 rounded-lg 2xl:w-80" data-tilt>
+          <img class="w-96 h-52 mb-2 rounded-t-md" src="Asset/meet.jpg" />
+          <a class="text-neutral-50 text-2xl ml-3">Meeet</a>
+          <p class="text-neutral-50 opacity-25 mx-3 mt-1 pb-2 text-sm mb-4">Meeet is a web from frontend training website,i made this website just for training and my practice.</p>
+          <a class="mx-3 border border-slate-50 hover:bg-white text-white font-bold py-2 px-8 rounded active:bg-white active:text-black transition-all md:px-8 md:py-4 hover:text-black">Visit</a>
+        </div>
+        <div class="w-72 h-96 bg-neutral-900 rounded-lg 2xl:w-80" data-tilt>
+          <img class="w-96 h-52 mb-2 rounded-t-md" src="Asset/landingpage.jpg" />
+          <a class="text-neutral-50 text-2xl ml-3">Ryoko Landing Page</a>
+          <p class="text-neutral-50 opacity-25 mx-3 mt-1 pb-2 text-sm mb-4">This is my first landing page using javascript,this website have pointer parallax effect made by my self.</p>
+          <a class="mx-3 border border-slate-50 hover:bg-white text-white font-bold py-2 px-8 rounded active:bg-white active:text-black transition-all md:px-8 md:py-4 hover:text-black">Visit</a>
+        </div>
+        <div class="w-72 h-96 bg-neutral-900 rounded-lg 2xl:w-80" data-tilt>
+          <img class="w-96 h-52 mb-2 rounded-t-md" src="Asset/tailwind.jpg" />
+          <a class="text-neutral-50 text-2xl ml-3">Alex Course</a>
+          <p class="text-neutral-50 opacity-25 mx-3 mt-1 pb-2 text-sm mb-4">And this is my first website i made using tailwindcss,i made it for my first flight training and practice, for knowledge with next project.</p>
+          <a class="mx-3 border border-slate-50 hover:bg-white text-white font-bold py-2 px-8 rounded active:bg-white active:text-black transition-all md:px-8 md:py-4 hover:text-black">Visit</a>
+        </div>
+        <div class="w-72 h-96 bg-neutral-900 rounded-lg 2xl:w-80" data-tilt>
+          <img class="w-96 h-52 mb-2 rounded-t-md" src="Asset/bakarenak.jpg" />
+          <a class="text-neutral-50 text-2xl ml-3">Bakar Enak web</a>
+          <p class="text-neutral-50 opacity-25 mx-3 mt-1 pb-2 text-sm mb-4">Bakar enak is my neighbour's restourant He contracted me to create a special website for his restaurant</p>
+          <a class="mx-3 border border-slate-50 hover:bg-white text-white font-bold py-2 px-8 rounded active:bg-white active:text-black transition-all md:px-8 md:py-4 hover:text-black">Visit</a>
+        </div>
+        <div class="w-72 h-96 bg-neutral-900 rounded-lg opacity-30 cursor-not-allowed 2xl:w-80">
+          <img class="w-96 h-52 mb-2 rounded-t-md" src="https://placeholder.com/600x600" />
+          <a class="text-neutral-50 text-2xl ml-3">No Project</a>
+          <p class="text-neutral-50 opacity-25 mx-3 mt-1 pb-2 text-sm mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, nobis? Maiores, nobis? Maiores, nobis?</p>
+          <a class="mx-3 border border-slate-50 text-white font-bold py-2 px-8 rounded transition-all md:px-8 md:py-4" disabled class="hover:cursor-not-allowed">Visit</a>
+        </div>
+        <div class="w-72 h-96 bg-neutral-900 rounded-lg opacity-30 cursor-not-allowed 2xl:w-80">
+          <img class="w-96 h-52 mb-2 rounded-t-md" src="https://placeholder.com/600x600" />
+          <a class="text-neutral-50 text-2xl ml-3">No Project</a>
+          <p class="text-neutral-50 opacity-25 mx-3 mt-1 pb-2 text-sm mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, nobis? Maiores, nobis? Maiores, nobis?</p>
+          <a class="mx-3 border border-slate-50 text-white font-bold py-2 px-8 rounded transition-all md:px-8 md:py-4" disabled class="hover:cursor-not-allowed">Visit</a>
+        </div>
+        <div class="w-72 h-96 bg-neutral-900 rounded-lg opacity-30 cursor-not-allowed 2xl:w-80">
+          <img class="w-96 h-52 mb-2 rounded-t-md" src="https://placeholder.com/600x600" />
+          <a class="text-neutral-50 text-2xl ml-3">No Project</a>
+          <p class="text-neutral-50 opacity-25 mx-3 mt-1 pb-2 text-sm mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, nobis? Maiores, nobis? Maiores, nobis?</p>
+          <a class="mx-3 border border-slate-50 text-white font-bold py-2 px-8 rounded transition-all md:px-8 md:py-4" disabled class="hover:cursor-not-allowed">Visit</a>
+        </div>
+        <div class="w-72 h-96 bg-neutral-900 rounded-lg opacity-30 cursor-not-allowed 2xl:w-80">
+          <img class="w-96 h-52 mb-2 rounded-t-md" src="https://placeholder.com/600x600" />
+          <a class="text-neutral-50 text-2xl ml-3">No Project</a>
+          <p class="text-neutral-50 opacity-25 mx-3 mt-1 pb-2 text-sm mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, nobis? Maiores, nobis? Maiores, nobis?</p>
+          <a class="mx-3 border border-slate-50 text-white font-bold py-2 px-8 rounded transition-all md:px-8 md:py-4" disabled class="hover:cursor-not-allowed">Visit</a>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const cursor = document.querySelector(".custom-cursor");
+
+        document.body.addEventListener("mousemove", function (e) {
+          const x = e.clientX;
+          const y = e.clientY;
+
+          cursor.style.transform = `translate(${x}px, ${y}px)`;
+        });
+      });
+    </script>
+  </body>
+</html>
